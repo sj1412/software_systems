@@ -1,0 +1,2 @@
+Data from original descriptor.
+Data from duplicated descriptor.
