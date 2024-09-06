@@ -13,7 +13,7 @@ int main() {
     FILE *file;
     char line[MAX_LEN];
 
-    const char *file_path;
+    const char *file_path="/home/soumya/repo1/file_0.txt";
 
 
     file = fopen(file_path, "r");
@@ -34,5 +34,7 @@ int main() {
 }
 
 /* output:
+soumya@soumya-HP-Pavilion-Laptop-15-cc1xx:~/repo1$ ./a.out
+1234567890abcdefghij soumya@soumya-HP-Pavilion-Laptop-15-cc1xx:~/repo1$ 
 */
 
