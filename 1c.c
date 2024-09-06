@@ -2,7 +2,7 @@
 ============================================================================
 Name : 1c.c
 Author : Soumya Jain
-Description :
+Description :Create the following types of a files using system call: FIFO
 Date: 30th Aug, 2024.
 ============================================================================
 */
