@@ -41,12 +41,7 @@ int main() {
         return EXIT_FAILURE;
     }
 
-/*output:
-soumya@soumya-HP-Pavilion-Laptop-15-cc1xx:~/repo1$ cc q29.c
-soumya@soumya-HP-Pavilion-Laptop-15-cc1xx:~/repo1$ ./a.out
-Current scheduling policy: SCHED_OTHER
-sched_setscheduler: Operation not permitted
-*/
+
     print_policy(policy);
 
 
@@ -70,4 +65,10 @@ sched_setscheduler: Operation not permitted
 
     return EXIT_SUCCESS;
 }
+/*output:
+soumya@soumya-HP-Pavilion-Laptop-15-cc1xx:~/repo1$ cc q29.c
+soumya@soumya-HP-Pavilion-Laptop-15-cc1xx:~/repo1$ ./a.out
+Current scheduling policy: SCHED_OTHER
+sched_setscheduler: Operation not permitted
+*/
 
